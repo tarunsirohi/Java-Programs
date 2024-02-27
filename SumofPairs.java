@@ -7,11 +7,9 @@ public class SumofPairs {
                 if (num1 % 5 == 0 && num2 % 7 == 0) {
                     int result = num1 + num2;
                     sum += result;
-                    System.out.println("The sum of pairs of numbers between 1 and 100 divisible by 5 and 7 is: "+sum);
                 }
             }
         }
-
-        
+    System.out.println("The sum of pairs of numbers between 1 and 100 divisible by 5 and 7 is: "+sum); 
     }
 }
